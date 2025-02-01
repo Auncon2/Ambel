@@ -84,11 +84,11 @@ const FindAndBook = () => {
       link: "/third-link",
     },
   ];
-  const handleSearchSubmit = (e) => {
-    e.preventDefault();
-    // Handle the search logic here
-    console.log("Searching for:", searchTerm, "in location:", location);
-  };
+  // const handleSearchSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Handle the search logic here
+  //   console.log("Searching for:", searchTerm, "in location:", location);
+  // };
 
   return (
     <div className="mx-auto max-[1400px]">
@@ -107,7 +107,7 @@ const FindAndBook = () => {
               <div className="max-w-[1016px]">
                 <form
                   className="flex flex-col md:flex-row gap-4 mb-8"
-                  onSubmit={handleSearchSubmit}
+                  // onSubmit={handleSearchSubmit}
                 >
                   <div className="relative flex-1">
                     <div className="absolute inset-y-0 left-3 flex items-center pointer-events-none">
