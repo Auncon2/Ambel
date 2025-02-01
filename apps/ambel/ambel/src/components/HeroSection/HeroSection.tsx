@@ -15,8 +15,7 @@ const HeroSection = () => {
         aria-label="Looking for a Business Solution for appointments?"
         className="text-center text-5xl font-bold mb-6 leading-snug"
       >
-        Looking for a{" "}
-        <span className="gradient-text">Business Solution</span>
+        Looking for a <span className="gradient-text">Business Solution</span>
         <br />
         <div className="flex items-center justify-center gap-2">
           <span className="gradient-text r">for</span>
@@ -35,14 +34,14 @@ const HeroSection = () => {
       {/* Buttons */}
       <div className="relative flex flex-col items-center justify-center gap-7">
         <div className="flex items-start justify-center gap-7">
-          <button className="w-[160px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-primary_">
+          <button className="w-[160px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-[#19525a]">
             Start A Free Trial
           </button>
           <button className="w-[210px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-[#F87316] flex items-center justify-center gap-2">
             <img
-              src="/homepageIcon/Common/Search White.svg"
+              src="/herosection/Search White.png"
               alt="Search"
-              className="w-5 h-5"
+              className="w-6 h-6"
             />
             <a href="/professionals">Find Professionals</a>
           </button>
@@ -51,7 +50,7 @@ const HeroSection = () => {
         {/* Decorative SVG */}
         <div className="absolute top-4 -left-[45px]">
           <img
-            src="/homePage/hero/Point to trail.svg"
+            src="/herosection/Point to trail.png"
             alt="hero"
             className="w-12 h-auto"
           />
@@ -61,17 +60,17 @@ const HeroSection = () => {
         <div className="flex items-start justify-center gap-7 text-xs">
           <div className="flex items-center justify-center gap-[6px] bg-[#ECFDF3] rounded-full py-1 px-[6px] transition-all duration-300 ease-in-out opacity-100">
             <img
-              src="/homepageIcon/Common/Success.svg"
+              src="/herosection/Sucess.png"
               alt="Success"
-              className="w-4 h-4"
+              className="w-[14px] h-[14px]"
             />
             No credit card required
           </div>
           <div className="flex items-center justify-center gap-[6px] bg-[#ECFDF3] rounded-full py-1 px-[6px] transition-all duration-300 ease-in-out opacity-100">
             <img
-              src="/homepageIcon/Common/Success.svg"
+              src="/herosection/Sucess.png"
               alt="Success"
-              className="w-4 h-4"
+              className="w-[14px] h-[14px]"
             />
             Try one month for free
           </div>

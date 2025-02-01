@@ -43,7 +43,7 @@ export default function Navbar() {
       {/* Buttons */}
       <div className="flex space-x-4">
         <Link to="/pricing">
-        <button className="px-4 py-2 border rounded-lg text-blue-600 border-blue-600 hover:bg-blue-100 transition">
+        <button className="px-4 py-2 border-none rounded-lg text-blue-600 border-blue-600 hover:bg-blue-100 transition">
           Log In
         </button>
         </Link>

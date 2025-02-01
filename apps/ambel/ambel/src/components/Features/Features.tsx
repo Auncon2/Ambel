@@ -2,61 +2,67 @@ export const Features = () => {
   const cardsData = [
     {
       id: 1,
-      icon1: "path/to/icon1.png", // replace with actual image path
-      icon2: "path/to/icon2.png", // replace with actual image path
+      icon1: "/features/Website builder white.png",
+      icon2: "/features/link-square-01.png",
       title: "Schedule & Booking",
       description:
         "Create, schedule and send your clients to your Ambel booking page, where they can book on any device.",
     },
     {
       id: 2,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Consultant white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Live Consultant",
+      description:
+        "Integrate meet, zoom and loom to communicate with your customers or clients in via video conference..",
     },
     {
       id: 3,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Payment white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Payments",
+      description:
+        "Send custom invoices, take POS and cash payment also accept credit or debit card payment from anywhere.",
     },
     {
       id: 4,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Targeting white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Customer Tracking",
+      description:
+        "Manage customer, send marketing email and message, create record and track via note, case study.",
     },
     {
       id: 5,
-      icon1: "path/to/icon1.png", // replace with actual image path
-      icon2: "path/to/icon2.png", // replace with actual image path
-      title: "Schedule & Booking",
+      icon1: "/features/Vector (2).png", 
+      icon2: "/features/link-square-01.png",
+      title: "Notification",
       description:
-        "Create, schedule and send your clients to your Ambel booking page, where they can book on any device.",
+        "Automatically notify your clients and practitioners with reminder via SMS and email by single setup.",
     },
     {
       id: 6,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Website builder white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Website Builder",
+      description:
+        "Get a free website, design and customize your booking website for your business without any code.",
     },
     {
       id: 7,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Report white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Reports",
+      description:
+        "Powerful data and graphs at your fingertips to monitor day to day activities and generate reports.",
     },
     {
       id: 8,
-      icon1: "path/to/icon3.png", // replace with actual image path
-      icon2: "path/to/icon4.png", // replace with actual image path
-      title: "Another Feature",
-      description: "Another description for this feature.",
+      icon1: "/features/Resources white.png", 
+      icon2: "/features/link-square-01.png",
+      title: "Resources",
+      description:
+        "Create and share resources like Prescriptions, Documentations, Medical Charts and Videos.",
     },
   ];
   return (
@@ -67,7 +73,7 @@ export const Features = () => {
             {/* Header section */}
             <div className="flex flex-col items-center gap-4">
               <p className="text-[#FDB022]">Features</p>
-              <h1 className="custom-heading text-white">
+              <h1 className="custom-heading ">
                 Solve all your needs with a single software solution
               </h1>
               <div className="max-w-[768px]">

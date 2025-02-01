@@ -3,9 +3,9 @@
 const BookADemo = () => {
   return (
     <section
-      className="bg-primary_ py-16 text-white_ my-24"
+      className="bg-[#19525a] py-16 text-white_ my-24"
       style={{
-        backgroundImage: "url('/homePage/BG_discover.svg')",
+        // backgroundImage: "url('/homePage/BG_discover.svg')",
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",

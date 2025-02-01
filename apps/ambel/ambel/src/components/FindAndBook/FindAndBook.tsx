@@ -20,68 +20,115 @@ const FindAndBook = () => {
       heading: "One brand in one easy to use system, across all your locations",
       description:
         "Give customers a consistent brand experience, online and in person. With one source for all your business information, you'll unify your guest data, business operations, marketing efforts, and more from one login area.",
-      imageSrc: "/homePage/ScrollCards/Multi Branch FF.webp",
+      imageSrc: "/findandbook/MultiBranchFF.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/#",
+      bgColor: "#00b0ad",
+      color: "white",
     },
     {
-      heading: "Another Brand System Example",
-      description: "A different description for another brand system.",
-      imageSrc: "/path/to/another-image.webp",
+      heading:
+        "Invite unlimited team members and assign custom roles and permissions",
+      description:
+        "This feature enables organizations to efficiently manage team members across one or multiple locations. Roles can be assigned and customized to control access, ensuring that team members only view or edit information and resources relevant to their roles.",
+      imageSrc: "/findandbook/Roles Home.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/another-link",
+      bgColor: "#327ff0",
+      color: "white",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Securely manage and organize payments: Cash, Debit, Credit",
+      description:
+        "Customers can securely payment via online credit, debit card, In person POS, Tap to pay and in app wallet. Also can record of cash and other gateway payment for reporting. Ambel integrates with gateways like Stripe, Clover, Square, and PayPal, providing comprehensive support for all your accounting and bookkeeping needs.",
+      imageSrc: "/findandbook/payment Home.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/third-link",
+      bgColor: "#0046b0",
+      color: "white",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Third party apps Integrations tailored your business",
+      description:
+        "Connect tools like Google Meet, Zoom, Loom, Zapier, Zendesk, and WhatsApp to streamline operations. Ambel also integrates with payment gateways such as Stripe, PayPal, Clover, and Square, allowing you to access all features in one convenient platform.",
+      imageSrc: "/findandbook/Intrgration Home.png",
+      imgScrArrow: "/findandbook/link-square-01.png",
       link: "/third-link",
+      bgColor: "#eff4fc",
+      color: "black",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Create a free website and start selling your products online.",
+      description:
+        "With our Online Shop and Inventory Management System, you can easily manage inventory, streamline e-commerce operations, and provide an exceptional shopping experience for your customers. Enjoy full e-commerce functionality to manage products, orders, and inventory seamlessly.",
+      imageSrc: "/findandbook/Shopping.png",
+      imgScrArrow: "/findandbook/link-square-01.png",
       link: "/third-link",
+      bgColor: "#fd9f00",
+      color: "black",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Boost Sales with Gift Cards, Packages, and Memberships",
+      description:
+        "Enhance customer loyalty and increase revenue by offering gift cards for easy gifting, tailored packages that add value, and membership programs that reward repeat purchases. These options attract new customers, encourage larger purchases, and build a loyal customer base.",
+      imageSrc: "/findandbook/Gift card.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/third-link",
+      bgColor: "#79a78a",
+      color: "white",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Boost Sales with Gift Cards, Packages, and Memberships",
+      description:
+        "Enhance customer loyalty and increase revenue by offering gift cards for easy gifting, tailored packages that add value, and membership programs that reward repeat purchases. These options attract new customers, encourage larger purchases, and build a loyal customer base.",
+      imageSrc: "/findandbook/Gift red.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/third-link",
+      bgColor: "#e41728",
+      color: "white",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading:
+        "Unlimited SMS and Email Reminders, Notifications, and Marketinge",
+      description:
+        "Stay connected with your customers effortlessly with unlimited SMS and email options. Send reminders for upcoming bookings, real-time notifications, and targeted marketing emails to keep your audience engaged and informed, all without limits. Boost customer satisfaction and retention while promoting your brand effectively via your own business email.",
+      imageSrc: "/findandbook/SMS Home.png",
+      imgScrArrow: "/findandbook/link-square-01.png",
       link: "/third-link",
+      bgColor: "#effcfa",
+      color: "black",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading:
+        "Create an Attractive and Customized Booking Page with your own domain",
+      description:
+        "Give your customers a seamless booking experience by personalizing your booking page. Customize colors, layout, and branding to reflect your business's unique style, and add features like easy navigation, clear time slots, and engaging visuals to make booking effortless and enjoyable. Even build own website with custom domain.",
+      imageSrc: "/findandbook/Website widget.png",
+      imgScrArrow: "/findandbook/link-square-01 (1).png",
       link: "/third-link",
+      bgColor: "#19525a",
+      color: "white",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading:
+        "Streamline Daily Operations with E-Forms, Prescriptions, and Med Charts",
+      description:
+        "Digitize and organize your daily tasks efficiently with our all-in-one platform. Use customizable E-forms for patient intake and documentation, generate prescriptions instantly for seamless medication management, and maintain accurate med charts to monitor patient treatment plans. Simplify workflows, reduce paperwork, and ensure accurate, secure record-keeping for enhanced operational efficiency and patient care.",
+      imageSrc: "/findandbook/Resource Home.png",
+      imgScrArrow: "/findandbook/link-square-01.png",
       link: "/third-link",
+      bgColor: "#ddf0ff",
+      color: "black",
     },
     {
-      heading: "Third Brand System Example",
-      description: "This is a third example with a custom description.",
-      imageSrc: "/path/to/third-image.webp",
+      heading: "Comprehensive Dashboard with Real-Time Data Insights",
+      description:
+        "Access a powerful dashboard with real-time data visualization to monitor key metrics, track performance, and make instant, informed decisions. Gain valuable insights with dynamic charts and analytics, all in one intuitive interface.",
+      imageSrc: "/findandbook/Dashboard Home.png",
+      imgScrArrow: "/findandbook/link-square-01.png",
       link: "/third-link",
+      bgColor: "#fcf8ef",
+      color: "black",
     },
   ];
   // const handleSearchSubmit = (e) => {
@@ -163,7 +210,7 @@ const FindAndBook = () => {
                   </div>
                   <button
                     type="submit"
-                    className="px-8 py-3 bg-btn-primary text-white font-medium rounded-full transition-colors"
+                    className="px-8 py-3 bg-[#0ba5ec] text-white font-medium rounded-full transition-colors"
                   >
                     Search
                   </button>
@@ -226,7 +273,7 @@ const FindAndBook = () => {
                 <div className="mt-6 text-center">
                   <a
                     href="#"
-                    className="text-processing_ hover:underline inline-flex items-center"
+                    className="text-[#0ba5ec] hover:underline inline-flex items-center"
                   >
                     Explore advance search
                     <svg
@@ -253,17 +300,33 @@ const FindAndBook = () => {
             {brandData.map((brand, index) => (
               <div
                 key={index}
-                className="  bg-[#00B0AD] text-white py-8 px-6 rounded-[32px] shadow-md max-w-[1260px] mx-auto h-[480px]"
-                style={{ position: "sticky", top: "20vh", zIndex: index+1 }}
+                className="flex flex-col md:flex-row justify-between gap-3 md:gap-8 py-8 px-6 rounded-[32px] shadow-md max-w-[1260px] mx-auto h-[480px]"
+                style={{
+                  position: "sticky",
+                  top: "20vh",
+                  zIndex: index + 1,
+                  backgroundColor: `${brand.bgColor}`,
+                  color: brand.color,
+                }}
               >
                 <div className="md:w-[625px] space-y-8 flex flex-col justify-center h-full pl-12">
-                  <h3 className="custom-heading text-white">{brand.heading}</h3>
+                  <h3
+                    className="custom-heading "
+                    style={{ color: brand.color }}
+                  >
+                    {brand.heading}
+                  </h3>
                   <p>{brand.description}</p>
                   <a
                     className="flex items-center gap-2 underline decoration-1 underline-offset-4"
                     href={brand.link}
                   >
                     Learn More
+                    <img
+                      src={brand.imgScrArrow}
+                      alt={brand.heading}
+                      className="w-[21px] h-[20px] "
+                    />
                   </a>
                 </div>
                 <div className="md:max-w-[608px] flex justify-end">
@@ -277,8 +340,8 @@ const FindAndBook = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-wrap gap-3 items-center justify-center">
-          <span className="font-bold text-primary_">Replace:</span>
+        <div className="flex flex-wrap gap-3 items-center justify-center px-7">
+          <span className="font-bold ">Replace:</span>
           {tags.map((tag, index) => (
             <span
               key={index}
