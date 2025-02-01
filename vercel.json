@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "ambel": {
+      "root": "ambel"
+    },
+    "pricing": {
+      "root": "pricing"
+    }
+  }
+}
