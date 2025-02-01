@@ -1,0 +1,21 @@
+{
+  "name": "my-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --workspace ambel\" \"npm run dev --workspace pricing\"",
+    "install:all": "npm install --workspace ambel && npm install --workspace pricing"
+  },
+  "workspaces": [
+    "ambel",
+    "pricing"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

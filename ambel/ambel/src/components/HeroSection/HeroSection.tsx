@@ -1,0 +1,84 @@
+const HeroSection = () => {
+  return (
+    <div
+      className="pb-[100px] relative flex flex-col items-center justify-center gap-7 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: 'url("/herosection/Background line.svg")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      {/* Heading */}
+
+      <h1
+        aria-label="Looking for a Business Solution for appointments?"
+        className="text-center text-5xl font-bold mb-6 leading-snug"
+      >
+        Looking for a{" "}
+        <span className="gradient-text">Business Solution</span>
+        <br />
+        <div className="flex items-center justify-center gap-2">
+          <span className="gradient-text r">for</span>
+          <span>appointments?</span>
+        </div>
+      </h1>
+
+      {/* Subtext */}
+      <p className="text-center mb-8 text-primary lg:max-w-[1100px]">
+        Ambel simplifies business management by providing tools for scheduling
+        appointments, managing bookkeeping, accepting payments, sharing
+        resources with customers, sending reminders, and running email marketing
+        campaigns.
+      </p>
+
+      {/* Buttons */}
+      <div className="relative flex flex-col items-center justify-center gap-7">
+        <div className="flex items-start justify-center gap-7">
+          <button className="w-[160px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-primary_">
+            Start A Free Trial
+          </button>
+          <button className="w-[210px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-[#F87316] flex items-center justify-center gap-2">
+            <img
+              src="/homepageIcon/Common/Search White.svg"
+              alt="Search"
+              className="w-5 h-5"
+            />
+            <a href="/professionals">Find Professionals</a>
+          </button>
+        </div>
+
+        {/* Decorative SVG */}
+        <div className="absolute top-4 -left-[45px]">
+          <img
+            src="/homePage/hero/Point to trail.svg"
+            alt="hero"
+            className="w-12 h-auto"
+          />
+        </div>
+
+        {/* Additional Information */}
+        <div className="flex items-start justify-center gap-7 text-xs">
+          <div className="flex items-center justify-center gap-[6px] bg-[#ECFDF3] rounded-full py-1 px-[6px] transition-all duration-300 ease-in-out opacity-100">
+            <img
+              src="/homepageIcon/Common/Success.svg"
+              alt="Success"
+              className="w-4 h-4"
+            />
+            No credit card required
+          </div>
+          <div className="flex items-center justify-center gap-[6px] bg-[#ECFDF3] rounded-full py-1 px-[6px] transition-all duration-300 ease-in-out opacity-100">
+            <img
+              src="/homepageIcon/Common/Success.svg"
+              alt="Success"
+              className="w-4 h-4"
+            />
+            Try one month for free
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HeroSection;
