@@ -12,14 +12,17 @@ module.exports = {
     publicPath: "http://localhost:5175/",
   },
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".js", ".jsx", ".tsx"],
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "pricing",
+      name: "planning",
       filename: "remoteEntry.js",
+      // exposes: {
+      //   "./Pricing": "./src/Pricing",
+      // },
       exposes: {
-        "./Pricing": "./src/Pricing",
+        "./Homepage": "./src/components/Homepage",
       },
       shared: ["react", "react-dom"],
     }),

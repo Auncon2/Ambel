@@ -12,13 +12,13 @@ module.exports = {
     publicPath: "http://localhost:5173/",
   },
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".js", ".jsx", ".tsx"],
   },
   plugins: [
     new ModuleFederationPlugin({
       name: "ambel",
       remotes: {
-        pricing: "pricing@http://localhost:3001/remoteEntry.js",
+        pricing: "pricing@http://localhost:5175/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
