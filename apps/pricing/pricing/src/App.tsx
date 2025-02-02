@@ -1,10 +1,11 @@
+import { RouterProvider } from "react-router-dom";
 import "./App.css";
-import TestOne from "./components/TestOne";
+import { routers } from "./router";
 
 function App() {
   return (
     <>
-      <TestOne />
+      <RouterProvider router={routers} />
     </>
   );
 }

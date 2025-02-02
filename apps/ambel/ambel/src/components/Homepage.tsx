@@ -1,5 +1,3 @@
-import BookADemo from "./BookADemo/BookADemo";
-import { CustomerFeedBack } from "./CustomerFeedBack/CustomerFeedBack";
 import { Features } from "./Features/Features";
 import FindAndBook from "./FindAndBook/FindAndBook";
 import Footer from "./Footer/Footer";
@@ -18,15 +16,17 @@ const Homepage = () => {
           <div className=" flex flex-col mx-auto max-w-[1366px]">
             <HeroSection />
             <OverView />
-            <SocialProofSection />
+          </div>
+          <SocialProofSection />
+          <div className=" flex flex-col mx-auto max-w-[1366px]">
             <PopularPractitioners />
           </div>
 
           <Features />
           <div className="flex flex-col mx-auto max-w-[1366px]">
             <FindAndBook />
-            <BookADemo />
-            <CustomerFeedBack />
+            {/* <BookADemo />
+            <CustomerFeedBack /> */}
           </div>
         </div>
       </section>

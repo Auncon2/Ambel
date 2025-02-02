@@ -3,7 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Homepage from "./components/Homepage";
 
 const PricingPage = React.lazy(
-  () => import("../../../pricing/pricing/src/components/TestOne")
+  () => import("../../../planning/planning/src/components/Homepage")
 );
 
 export const routers = createBrowserRouter([
