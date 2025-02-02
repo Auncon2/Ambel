@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-white border-b py-3 px-6 flex items-center justify-around z-50">
       {/* Logo */}
       <div className="flex items-center">
-        <Link to={"/homepage"}>
+        <Link to={"/"}>
           {" "}
           <img
             src="/navbar/ambel copy 2 no pedding 1.png"

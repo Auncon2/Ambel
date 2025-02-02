@@ -130,8 +130,8 @@ const PopularPractitioners = () => {
             <div
               className={
                 activeCategory === card.category
-                  ? "absolute top-0 left-0 opacity-0 transition-opacity duration-[1500ms] ease-in-out "
-                  : "absolute top-0 left-0 opacity-100 transition-opacity duration-[1500ms] ease-in-out "
+                  ? "absolute top-0 left-0 opacity-0 transition-opacity duration-[2000ms] ease-in-out "
+                  : "opacity-100 transition-opacity duration-[2000ms] ease-in-out "
               }
             >
               <button className="h-[346px] flex items-center w-[110px]">
@@ -146,9 +146,9 @@ const PopularPractitioners = () => {
             {/* Active Card Content */}
 
             <div
-              className={`transition-opacity duration-[1700ms] ease-in-out ${
+              className={`transition-opacity duration-[2000ms] ease-in-out ${
                 activeCategory === card.category
-                  ? "opacity-100  relative "
+                  ? "opacity-100 relative "
                   : "opacity-0 absolute"
               }`}
             >

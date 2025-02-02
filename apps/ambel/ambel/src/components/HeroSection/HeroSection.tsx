@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <div
@@ -34,9 +36,12 @@ const HeroSection = () => {
       {/* Buttons */}
       <div className="relative flex flex-col items-center justify-center gap-7">
         <div className="flex items-start justify-center gap-7">
+        <Link to={"/pricing"}>
           <button className="w-[160px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-[#19525a]">
             Start A Free Trial
           </button>
+          </Link>
+          <Link to={"/pricing"}>
           <button className="w-[210px] h-[40px] rounded-lg hover:scale-105 hover:shadow-lg active:scale-95 transition-all duration-300 ease-in-out text-white bg-[#F87316] flex items-center justify-center gap-2">
             <img
               src="/herosection/Search White.png"
@@ -45,6 +50,7 @@ const HeroSection = () => {
             />
             <a href="/professionals">Find Professionals</a>
           </button>
+          </Link>
         </div>
 
         {/* Decorative SVG */}
